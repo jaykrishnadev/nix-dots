@@ -8,5 +8,6 @@
     ./programs.nix
     ./services.nix
     ./system.nix
+    ./hardware.nix
   ];
 }
