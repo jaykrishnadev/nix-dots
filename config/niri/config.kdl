@@ -101,8 +101,8 @@ binds {
         spawn "kitty"
     }
 
-    Mod+Space hotkey-overlay-title="Run an Application: rofi" {
-        spawn-sh "rofi -show drun"
+    Mod+Space hotkey-overlay-title="Run an Application: fuzzel" {
+        spawn "fuzzel"
     }
 
     XF86AudioRaiseVolume allow-when-locked=true {
