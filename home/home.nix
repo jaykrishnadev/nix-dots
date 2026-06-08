@@ -4,7 +4,7 @@ let
   dotfiles  = "${config.home.homeDirectory}/nix-dots/config";
   mkSymlink = path: config.lib.file.mkOutOfStoreSymlink path;
   configs   = {
-    hyprland = "hyprland";
+    hypr = "hypr";
     kitty    = "kitty";
     nvim     = "nvim";
   };
